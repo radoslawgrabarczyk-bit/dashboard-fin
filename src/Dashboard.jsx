@@ -90,7 +90,7 @@ const MarketDashboard = () => {
               <th className={`pb-2 text-left ${STYLES.label}`}>TICKER</th>
               <th className={`pb-2 text-left ${STYLES.label}`}>NAZWA</th>
               <th className={`pb-2 text-right ${STYLES.label}`}>CENA (C)</th>
-              <th className={`pb-2 text-right ${STYLES.label}`}>ZMIANA (O->C)</th>
+              <th className={`pb-2 text-right ${STYLES.label}`}>ZMIANA (O-C)</th>
               <th className={`pb-2 text-right ${STYLES.label}`}>TREND</th>
             </tr>
           </thead>
