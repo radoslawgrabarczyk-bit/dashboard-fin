@@ -27,7 +27,7 @@ const MarketDashboard = () => {
   const [marketData, setMarketData] = useState({});
   const [loadingProgress, setLoadingProgress] = useState(0);
   const [lastUpdate, setLastUpdate] = useState(null);
-  const API_URL = import.config.VITE_API_URL || 'https://fin-production-75a5.up.railway.app'; // Twój adres z Railway
+  const API_URL = import.meta.env.VITE_API_URL || 'https://fin-production-75a5.up.railway.app'; // Twój adres z Railway
 
   const allSymbols = Object.values(SECTORS).flat();
 
